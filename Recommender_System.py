@@ -5,7 +5,6 @@ from operator import itemgetter
 import joblib
 from tqdm import tqdm
 
-
 class UserCF_demo():
     def __init__(self):
         self.n_sim_user = 500  # 考虑的相似用户数
